@@ -1,0 +1,62 @@
+<html>
+    <head>
+      <title>Tic-Tac-Toe Login</title>
+        <style>
+            .login-page {
+                width: 360px;
+                padding: 10% 0 0;
+                margin: auto;
+            }
+            .form {
+                background: #141618;
+                max-width: 360px;
+                padding: 45px;
+                padding-bottom: 15px;
+                text-align: center;
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),
+                    0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            }
+            .form input {
+                background: #313437;
+                color: #ffffff;
+                width: 100%;
+                border: 0;
+                margin: 0 0 15px;
+                padding: 15px;
+                font-size: 14px;
+            }
+            .form p {
+                background: #313437;
+                color: #ffffff;
+                border: 0;
+                margin: 0 0 15px;
+                padding: 15px;
+                font-size: 17px;
+                font-family: Arial;
+            }
+            .form input#submit {
+                background: #4CAF50;
+                width: 100%;
+                border: 0;
+                padding: 15px;
+                color: #ffffff;
+                font-size: 14px;
+            }
+
+            body {
+              background: #141618;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="form">
+                <form class="login-form" method="POST" action="Tic-Tac-Toe_1.2.php">
+                    <p>Tic-Tac-Toe</p>
+                    <input type="text" placeholder="Username" name="name" required />
+                    <input id="submit" type="submit" value="LOGIN"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
